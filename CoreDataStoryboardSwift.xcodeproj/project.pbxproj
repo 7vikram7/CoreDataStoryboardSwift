@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F743753A1BE78381005CE5F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F74375391BE78381005CE5F0 /* main.m */; };
 		F743753D1BE78381005CE5F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F743753C1BE78381005CE5F0 /* AppDelegate.m */; };
-		F74375401BE78381005CE5F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F743753F1BE78381005CE5F0 /* ViewController.m */; };
+		F74375401BE78381005CE5F0 /* HomeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F743753F1BE78381005CE5F0 /* HomeMenuViewController.m */; };
 		F74375431BE78381005CE5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74375411BE78381005CE5F0 /* Main.storyboard */; };
 		F74375461BE78381005CE5F0 /* CoreDataStoryboardSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F74375441BE78381005CE5F0 /* CoreDataStoryboardSwift.xcdatamodeld */; };
 		F74375481BE78381005CE5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F74375471BE78381005CE5F0 /* Assets.xcassets */; };
@@ -40,8 +40,8 @@
 		F74375391BE78381005CE5F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F743753B1BE78381005CE5F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F743753C1BE78381005CE5F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F743753E1BE78381005CE5F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F743753F1BE78381005CE5F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F743753E1BE78381005CE5F0 /* HomeMenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeMenuViewController.h; sourceTree = "<group>"; };
+		F743753F1BE78381005CE5F0 /* HomeMenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeMenuViewController.m; sourceTree = "<group>"; };
 		F74375421BE78381005CE5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F74375451BE78381005CE5F0 /* CoreDataStoryboardSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataStoryboardSwift.xcdatamodel; sourceTree = "<group>"; };
 		F74375471BE78381005CE5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,8 +105,8 @@
 			children = (
 				F743753B1BE78381005CE5F0 /* AppDelegate.h */,
 				F743753C1BE78381005CE5F0 /* AppDelegate.m */,
-				F743753E1BE78381005CE5F0 /* ViewController.h */,
-				F743753F1BE78381005CE5F0 /* ViewController.m */,
+				F743753E1BE78381005CE5F0 /* HomeMenuViewController.h */,
+				F743753F1BE78381005CE5F0 /* HomeMenuViewController.m */,
 				F74375411BE78381005CE5F0 /* Main.storyboard */,
 				F74375471BE78381005CE5F0 /* Assets.xcassets */,
 				F74375491BE78381005CE5F0 /* LaunchScreen.storyboard */,
@@ -273,7 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F74375401BE78381005CE5F0 /* ViewController.m in Sources */,
+				F74375401BE78381005CE5F0 /* HomeMenuViewController.m in Sources */,
 				F74375461BE78381005CE5F0 /* CoreDataStoryboardSwift.xcdatamodeld in Sources */,
 				F743753D1BE78381005CE5F0 /* AppDelegate.m in Sources */,
 				F743753A1BE78381005CE5F0 /* main.m in Sources */,
@@ -502,6 +502,7 @@
 				F74375671BE78381005CE5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F74375681BE78381005CE5F0 /* Build configuration list for PBXNativeTarget "CoreDataStoryboardSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +511,7 @@
 				F743756A1BE78381005CE5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F743756B1BE78381005CE5F0 /* Build configuration list for PBXNativeTarget "CoreDataStoryboardSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +520,7 @@
 				F743756D1BE78381005CE5F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

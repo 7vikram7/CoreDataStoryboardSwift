@@ -6,13 +6,13 @@
 //  Copyright © 2015 7vikram7. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeMenuViewController.h"
 
-@interface ViewController ()
+@interface HomeMenuViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeMenuViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
