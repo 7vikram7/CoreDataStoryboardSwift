@@ -11,12 +11,13 @@
 		F743754B1BE78381005CE5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F74375491BE78381005CE5F0 /* LaunchScreen.storyboard */; };
 		F74375561BE78381005CE5F0 /* CoreDataStoryboardSwiftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F74375551BE78381005CE5F0 /* CoreDataStoryboardSwiftTests.m */; };
 		F74375611BE78381005CE5F0 /* CoreDataStoryboardSwiftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F74375601BE78381005CE5F0 /* CoreDataStoryboardSwiftUITests.m */; };
-		F7A19CBA1BE7A3670008F796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A19CAC1BE7A3670008F796 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		F7A19CBB1BE7A3670008F796 /* HomeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A19CB01BE7A3670008F796 /* HomeMenuViewController.m */; settings = {ASSET_TAGS = (); }; };
-		F7A19CBC1BE7A3670008F796 /* CoreDataStoryboardSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7A19CB41BE7A3670008F796 /* CoreDataStoryboardSwift.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
-		F7A19CBD1BE7A3670008F796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A19CB91BE7A3670008F796 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		F7A19CC11BE7A38D0008F796 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A19CBF1BE7A38D0008F796 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		F7A19CC21BE7A38D0008F796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A19CC01BE7A38D0008F796 /* main.m */; settings = {ASSET_TAGS = (); }; };
+		F747EFA01BE8BA44003530DD /* SquadsTransfersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F747EF9F1BE8BA44003530DD /* SquadsTransfersViewController.m */; };
+		F7A19CBA1BE7A3670008F796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A19CAC1BE7A3670008F796 /* AppDelegate.m */; };
+		F7A19CBB1BE7A3670008F796 /* HomeMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A19CB01BE7A3670008F796 /* HomeMenuViewController.m */; };
+		F7A19CBC1BE7A3670008F796 /* CoreDataStoryboardSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7A19CB41BE7A3670008F796 /* CoreDataStoryboardSwift.xcdatamodeld */; };
+		F7A19CBD1BE7A3670008F796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A19CB91BE7A3670008F796 /* Assets.xcassets */; };
+		F7A19CC11BE7A38D0008F796 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A19CBF1BE7A38D0008F796 /* Info.plist */; };
+		F7A19CC21BE7A38D0008F796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A19CC01BE7A38D0008F796 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		F743755C1BE78381005CE5F0 /* CoreDataStoryboardSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataStoryboardSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F74375601BE78381005CE5F0 /* CoreDataStoryboardSwiftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataStoryboardSwiftUITests.m; sourceTree = "<group>"; };
 		F74375621BE78381005CE5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F747EF9E1BE8BA44003530DD /* SquadsTransfersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SquadsTransfersViewController.h; sourceTree = "<group>"; };
+		F747EF9F1BE8BA44003530DD /* SquadsTransfersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SquadsTransfersViewController.m; sourceTree = "<group>"; };
 		F7A19CAB1BE7A3670008F796 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7A19CAC1BE7A3670008F796 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F7A19CAF1BE7A3670008F796 /* HomeMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeMenuViewController.h; sourceTree = "<group>"; };
@@ -164,6 +167,8 @@
 			children = (
 				F7A19CAF1BE7A3670008F796 /* HomeMenuViewController.h */,
 				F7A19CB01BE7A3670008F796 /* HomeMenuViewController.m */,
+				F747EF9E1BE8BA44003530DD /* SquadsTransfersViewController.h */,
+				F747EF9F1BE8BA44003530DD /* SquadsTransfersViewController.m */,
 			);
 			path = MenuScreens;
 			sourceTree = "<group>";
@@ -357,6 +362,7 @@
 			files = (
 				F7A19CBB1BE7A3670008F796 /* HomeMenuViewController.m in Sources */,
 				F7A19CBA1BE7A3670008F796 /* AppDelegate.m in Sources */,
+				F747EFA01BE8BA44003530DD /* SquadsTransfersViewController.m in Sources */,
 				F7A19CC21BE7A38D0008F796 /* main.m in Sources */,
 				F7A19CBC1BE7A3670008F796 /* CoreDataStoryboardSwift.xcdatamodeld in Sources */,
 			);
