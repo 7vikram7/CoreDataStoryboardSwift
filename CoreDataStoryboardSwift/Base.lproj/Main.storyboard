@@ -24,7 +24,7 @@
                                 <rect key="frame" x="272" y="366" width="57" height="30"/>
                                 <state key="normal" title="Settings"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEp-X3-G8e">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEp-X3-G8e">
                                 <rect key="frame" x="258" y="60" width="84" height="30"/>
                                 <state key="normal" title="Quick Game"/>
                             </button>
@@ -40,6 +40,7 @@
                             <constraint firstItem="nEp-X3-G8e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QFq-LU-H2X"/>
                             <constraint firstItem="oBn-ng-jWS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qp5-lf-fTJ"/>
                             <constraint firstItem="xGK-FU-RHb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ieO-bm-whG"/>
+                            <constraint firstItem="nEp-X3-G8e" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="nsN-QE-anA"/>
                             <constraint firstItem="lev-XP-JYS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uIa-Ts-gGv"/>
                             <constraint firstItem="xGK-FU-RHb" firstAttribute="centerX" secondItem="nEp-X3-G8e" secondAttribute="centerX" id="wdK-UL-mhx"/>
                         </constraints>
