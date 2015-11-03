@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--Home Menu View Controller-->
@@ -15,7 +15,34 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBn-ng-jWS">
+                                <rect key="frame" x="240" y="275" width="121" height="30"/>
+                                <state key="normal" title="Squads/Transfers"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGK-FU-RHb">
+                                <rect key="frame" x="272" y="366" width="57" height="30"/>
+                                <state key="normal" title="Settings"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nEp-X3-G8e">
+                                <rect key="frame" x="258" y="60" width="84" height="30"/>
+                                <state key="normal" title="Quick Game"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lev-XP-JYS">
+                                <rect key="frame" x="255" y="172" width="91" height="30"/>
+                                <state key="normal" title="Game Modes"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oBn-ng-jWS" firstAttribute="centerX" secondItem="nEp-X3-G8e" secondAttribute="centerX" id="31L-d7-CN9"/>
+                            <constraint firstItem="lev-XP-JYS" firstAttribute="centerX" secondItem="nEp-X3-G8e" secondAttribute="centerX" id="EeL-Dq-sIC"/>
+                            <constraint firstItem="nEp-X3-G8e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QFq-LU-H2X"/>
+                            <constraint firstItem="oBn-ng-jWS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qp5-lf-fTJ"/>
+                            <constraint firstItem="xGK-FU-RHb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ieO-bm-whG"/>
+                            <constraint firstItem="lev-XP-JYS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uIa-Ts-gGv"/>
+                            <constraint firstItem="xGK-FU-RHb" firstAttribute="centerX" secondItem="nEp-X3-G8e" secondAttribute="centerX" id="wdK-UL-mhx"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
