@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ReW-Js-KRH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ReW-Js-KRH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Home Menu View Controller-->
@@ -28,7 +28,9 @@
                                 <rect key="frame" x="253" y="321" width="94" height="23"/>
                                 <state key="normal" title="Squads/Transfers"/>
                                 <connections>
-                                    <segue destination="X8P-49-5uw" kind="show" id="yHW-CW-8pn"/>
+                                    <segue destination="X8P-49-5uw" kind="popoverPresentation" popoverAnchorView="oBn-ng-jWS" id="yHW-CW-8pn">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xGK-FU-RHb">
@@ -47,7 +49,9 @@
                             <constraint firstItem="xGK-FU-RHb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xcc-Vg-ck0"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="8gY-sf-2hj"/>
+                    <navigationItem key="navigationItem" id="8gY-sf-2hj">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="XXN-Cv-JEM"/>
+                    </navigationItem>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -65,7 +69,23 @@
                     <view key="view" contentMode="scaleToFill" id="Zfz-jB-6K4">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNd-0j-yDL">
+                                <rect key="frame" x="369" y="355" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="EnM-SN-yhH"/>
+                                    <constraint firstAttribute="height" constant="21" id="aaw-9L-yYN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.4599858162326429" blue="0.30762232319031024" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gNd-0j-yDL" firstAttribute="centerX" secondItem="Zfz-jB-6K4" secondAttribute="centerX" id="1d1-CQ-3EL"/>
+                            <constraint firstItem="gNd-0j-yDL" firstAttribute="centerY" secondItem="Zfz-jB-6K4" secondAttribute="centerY" id="FMb-HZ-wPO"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IVA-La-ArV"/>
                 </viewController>
@@ -76,7 +96,7 @@
         <!--Navigation Controller-->
         <scene sceneID="ggH-7w-Qiv">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ReW-Js-KRH" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="ReW-Js-KRH" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="nsc-3w-toQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
