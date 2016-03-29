@@ -458,7 +458,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "fdb553db-2cc6-45b3-a3e4-d6e0ca346770";
+				PROVISIONING_PROFILE = "7c25b19d-e116-4c96-af70-72174c5e848f";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -496,7 +496,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "fdb553db-2cc6-45b3-a3e4-d6e0ca346770";
+				PROVISIONING_PROFILE = "7c25b19d-e116-4c96-af70-72174c5e848f";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -511,6 +511,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vikram7-7.CoreDataStoryboardSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7c25b19d-e116-4c96-af70-72174c5e848f";
 			};
 			name = Debug;
 		};
@@ -522,6 +523,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vikram7-7.CoreDataStoryboardSwift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7c25b19d-e116-4c96-af70-72174c5e848f";
 			};
 			name = Release;
 		};
