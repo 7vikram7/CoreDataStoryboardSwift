@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Just enter you details and one of our volunteers will visit you to help you with "; ObjectID = "QNb-zB-Bq8"; */
+"QNb-zB-Bq8.text" = "Just enter you details and one of our volunteers will visit you to help you with ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "XXN-Cv-JEM"; */
+"XXN-Cv-JEM.title" = "Back";
+
+/* Class = "UILabel"; text = "Request Voter ID Card"; ObjectID = "gNd-0j-yDL"; */
+"gNd-0j-yDL.text" = "Request Voter ID Card";
+
+/* Class = "UIButton"; normalTitle = "Game Modes"; ObjectID = "lev-XP-JYS"; */
+"lev-XP-JYS.normalTitle" = "Game Modes";
+
+/* Class = "UIButton"; normalTitle = "Quick Game"; ObjectID = "nEp-X3-G8e"; */
+"nEp-X3-G8e.normalTitle" = "Quick Game";
+
+/* Class = "UIButton"; normalTitle = "Squads/Transfers"; ObjectID = "oBn-ng-jWS"; */
+"oBn-ng-jWS.normalTitle" = "Squads/Transfers";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "xGK-FU-RHb"; */
+"xGK-FU-RHb.normalTitle" = "Settings";

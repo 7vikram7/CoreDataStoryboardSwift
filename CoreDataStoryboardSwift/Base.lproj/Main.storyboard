@@ -70,22 +70,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNd-0j-yDL">
-                                <rect key="frame" x="279" y="289" width="42" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="42" id="EnM-SN-yhH"/>
-                                    <constraint firstAttribute="height" constant="21" id="aaw-9L-yYN"/>
-                                </constraints>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Just enter you details and one of our volunteers will visit you to help you with " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QNb-zB-Bq8">
+                                <rect key="frame" x="-316" y="105" width="590" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="UeD-Zk-irH">
+                                <rect key="frame" x="140" y="289" width="242" height="21"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WNF-GG-bOc">
+                                        <rect key="frame" x="0.0" y="0.0" width="242" height="21"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ooJ-Rj-XGu">
+                                                <rect key="frame" x="0.0" y="0.0" width="242" height="21"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Request Voter ID Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNd-0j-yDL">
+                                                        <rect key="frame" x="0.0" y="0.0" width="242" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="242" id="EnM-SN-yhH"/>
+                                                            <constraint firstAttribute="height" constant="21" id="aaw-9L-yYN"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.4599858162326429" blue="0.30762232319031024" alpha="1" colorSpace="calibratedRGB"/>
-                        <constraints>
-                            <constraint firstItem="gNd-0j-yDL" firstAttribute="centerX" secondItem="Zfz-jB-6K4" secondAttribute="centerX" id="1d1-CQ-3EL"/>
-                            <constraint firstItem="gNd-0j-yDL" firstAttribute="centerY" secondItem="Zfz-jB-6K4" secondAttribute="centerY" id="FMb-HZ-wPO"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IVA-La-ArV"/>
                 </viewController>

@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  CoreDataStoryboardSwift
+
+  Created by Vikram Gore on 29/03/16.
+  Copyright © 2016 7vikram7. All rights reserved.
+*/
+
+//Request Voter Card Screen
+"Request Voter ID Card" = "Request Voter ID Card";
