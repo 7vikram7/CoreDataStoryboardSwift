@@ -6,7 +6,7 @@
 "XXN-Cv-JEM.title" = "Back";
 
 /* Class = "UILabel"; text = "Request Voter ID Card"; ObjectID = "gNd-0j-yDL"; */
-"gNd-0j-yDL.text" = "Request Voter ID Card";
+"gNd-0j-yDL.text" = "Request  ID Card";
 
 /* Class = "UIButton"; normalTitle = "Game Modes"; ObjectID = "lev-XP-JYS"; */
 "lev-XP-JYS.normalTitle" = "Game Modes";
